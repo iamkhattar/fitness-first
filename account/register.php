@@ -17,6 +17,36 @@
     <h1>Register Page</h1>
     <form action="../index.php">
         <input type="submit" value="Home" />
+        <div class="field-column">
+            <label> Name </label>
+            <div>
+                <input type="text" class="input-box" name="name">
+            </div>
+        </div>
+        <div class="field-column">
+            <label> Email Address </label>
+            <div>
+                <input type="text" class="input-box" name="email">
+            </div>
+        </div>
+        <div class="field-column">
+            <label> Password </label>
+            <div>
+                <input type="password" class="input-box" name="password" value="">
+            </div>
+        </div>
+        <div class="field-column">
+            <label> Confirm Password </label>
+            <div>
+                <input type="password" class="input-box" name="confirm_password" value="">
+            </div>
+        </div>
+
+
+
+
+
+
     </form>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
