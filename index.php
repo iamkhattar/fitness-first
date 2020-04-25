@@ -15,16 +15,16 @@
 
 <body>
     <h1>Home Page</h1>
-    <form action="shop.php">
+    <form action="shop/shop.php">
         <input type="submit" value="Shop" />
     </form>
-    <form action="login.php">
+    <form action="account/login.php">
         <input type="submit" value="Login" />
     </form>
-    <form action="register.php">
+    <form action="account/register.php">
         <input type="submit" value="Register" />
     </form>
-    <form action="account.php">
+    <form action="account/account.php">
         <input type="submit" value="Account" />
     </form>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
