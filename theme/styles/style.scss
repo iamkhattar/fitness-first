@@ -1,6 +1,6 @@
 $headerHeight: 7vh;
-$bodyHeight: 93vh;
 
+$textColor: white;
 $backgroundColor: #343a40 !important ;
 
 html {
@@ -13,17 +13,18 @@ header {
 }
 
 main {
-  height: $bodyHeight;
+  background-color: $backgroundColor;
+  color: $textColor;
 }
 
 .nav-link {
-  color: white;
+  color: $textColor;
 }
 
 a {
-  color: white !important;
+  color: $textColor !important;
   text-decoration: none;
   &:hover {
-    color: white !important;
+    color: $textColor !important;
   }
 }
