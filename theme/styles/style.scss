@@ -1,0 +1,29 @@
+$headerHeight: 7vh;
+$bodyHeight: 93vh;
+
+$backgroundColor: #343a40 !important ;
+
+html {
+  background-color: $backgroundColor;
+}
+
+header {
+  height: $headerHeight;
+  background-color: $backgroundColor;
+}
+
+body {
+  height: $bodyHeight;
+}
+
+.nav-link {
+  color: white;
+}
+
+a {
+  color: white !important;
+  text-decoration: none;
+  &:hover {
+    color: white !important;
+  }
+}

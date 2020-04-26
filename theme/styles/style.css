@@ -1,0 +1,26 @@
+html {
+  background-color: #343a40 !important;
+}
+
+header {
+  height: 7vh;
+  background-color: #343a40 !important;
+}
+
+body {
+  height: 93vh;
+}
+
+.nav-link {
+  color: white;
+}
+
+a {
+  color: white !important;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white !important;
+}
+/*# sourceMappingURL=style.css.map */
