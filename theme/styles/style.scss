@@ -1,11 +1,8 @@
 $headerHeight: 7vh;
 
 $textColor: white;
-$backgroundColor: #343a40 !important ;
-
-* {
-  color: $textColor;
-}
+$backgroundColor: #343a40 !important;
+$secondaryColor: #fa4251;
 
 html {
   background-color: $backgroundColor;
@@ -31,4 +28,8 @@ a {
   &:hover {
     color: $textColor !important;
   }
+}
+
+.nav-item .active {
+  color: $secondaryColor !important;
 }
