@@ -32,6 +32,7 @@ a:hover {
 .crd-btn {
   background-color: #fa4251 !important;
   color: white !important;
+  font-weight: bold;
 }
 
 .card {
