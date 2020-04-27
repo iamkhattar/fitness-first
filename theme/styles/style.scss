@@ -1,7 +1,7 @@
 $headerHeight: 7vh;
 
 $textColor: white;
-$backgroundColor: #343a40 !important;
+$backgroundColor: #343a40;
 $secondaryColor: #fa4251;
 
 html {
@@ -32,4 +32,13 @@ a {
 
 .nav-item .active {
   color: $secondaryColor !important;
+}
+
+.crd-btn {
+  background-color: $secondaryColor !important;
+  color: $textColor !important;
+}
+
+.card {
+  background-color: transparent;
 }

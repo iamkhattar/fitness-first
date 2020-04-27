@@ -1,14 +1,14 @@
 html {
-  background-color: #343a40 !important;
+  background-color: #343a40;
 }
 
 header {
   height: 7vh;
-  background-color: #343a40 !important;
+  background-color: #343a40;
 }
 
 main {
-  background-color: #343a40 !important;
+  background-color: #343a40;
   color: white;
 }
 
@@ -27,5 +27,14 @@ a:hover {
 
 .nav-item .active {
   color: #fa4251 !important;
+}
+
+.crd-btn {
+  background-color: #fa4251 !important;
+  color: white !important;
+}
+
+.card {
+  background-color: transparent;
 }
 /*# sourceMappingURL=style.css.map */
