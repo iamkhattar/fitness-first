@@ -3,6 +3,10 @@ $headerHeight: 7vh;
 $textColor: white;
 $backgroundColor: #343a40 !important ;
 
+* {
+  color: $textColor;
+}
+
 html {
   background-color: $backgroundColor;
 }
