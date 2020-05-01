@@ -57,16 +57,16 @@
             <h1>Sign up for an account</h1>
           </div>
           <div class="col-12 p-1">
-            <input type="text" style="width: 100%; height: 6vh;" class="pl-1 pr-1" placeholder="Email" />
+            <input name="email" type="text" style="width: 100%; height: 6vh;" class="pl-1 pr-1" placeholder="Email" />
           </div>
           <div class="col-12 p-1">
-            <input type="password" style="width: 100%; height: 6vh;" class="pl-1 pr-1" placeholder="Password" />
+            <input name="password"type="password" style="width: 100%; height: 6vh;" class="pl-1 pr-1" placeholder="Password" />
           </div>
           <div class="col-12 p-1">
-            <input type="password" style="width: 100%; height: 6vh;" class="pl-1 pr-1" placeholder="Repeat Password" />
+            <input name="confirm_password" type="password" style="width: 100%; height: 6vh;" class="pl-1 pr-1" placeholder="Repeat Password" />
           </div>
           <div class="col-12 p-1">
-            <button style="
+            <button type="submit" name="user_registration" style="
                   width: 100%;
                   height: 6vh;
                   border: 0px;
