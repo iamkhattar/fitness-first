@@ -8,7 +8,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <link
+      rel="icon"
+      type="image/png"
+      href="./../../assets/common/small-logo.png"
+    />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
@@ -22,16 +26,16 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="../styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="../../styles/style.css" />
   </head>
 
   <body>
     <header>
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark pl-0 pr-0">
-          <a class="navbar-brand" href="#"
+          <a class="navbar-brand" href="../../"
             ><img
-              src="../assets/common/logo.png"
+              src="../../assets/common/logo.png"
               alt="Fitness First"
               height="23"
               width="170"
@@ -50,7 +54,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="nav justify-content-end w-100">
               <li class="nav-item">
-                <a class="nav-link" href="../"
+                <a class="nav-link" href="../../"
                   ><i class="fas fa-fw fa-home"></i> Home</a
                 >
               </li>
@@ -60,12 +64,12 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../account/login.html"
+                <a class="nav-link" href="../../account/login.html"
                   ><i class="fas fa-fw fa-user"></i> Account</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link pr-0" href="../basket/"
+                <a class="nav-link pr-0" href="../../basket/"
                   ><i class="fas fa-fw fa-shopping-cart"></i> Basket</a
                 >
               </li>
@@ -79,18 +83,38 @@
         <div class="col-12 p-0">
           <div class="row p-0 m-0 pt-2">
             <div class="col-3 p-1">
-              <button
-                class="w-100 shop-cat-btn"
-                style="
-                  height: 3rem;
-                  background-color: #fa4251;
-                  border: 0px;
-                  color: white;
-                  font-weight: bold;
-                "
-              >
-                Fitness Equipment
-              </button>
+              <form action="../fitness-equipment/">
+                <button
+                  class="w-100 shop-cat-btn"
+                  style="
+                    height: 3rem;
+                    background-color: #fa4251;
+                    border: 0px;
+                    color: white;
+                    font-weight: bold;
+                  "
+                  type="submit"
+                >
+                  Fitness Equipment
+                </button>
+              </form>
+            </div>
+            <div class="col-3 p-1">
+              <form action="../gym-equipment/">
+                <button
+                  class="w-100 shop-cat-btn"
+                  style="
+                    height: 3rem;
+                    background-color: #fa4251;
+                    border: 0px;
+                    color: white;
+                    font-weight: bold;
+                  "
+                  type="submit"
+                >
+                  Gym Equipment
+                </button>
+              </form>
             </div>
             <div class="col-3 p-1">
               <button
@@ -101,38 +125,28 @@
                   border: 0px;
                   color: white;
                   font-weight: bold;
-                "
-              >
-                Gym Equipment
-              </button>
-            </div>
-            <div class="col-3 p-1">
-              <button
-                class="w-100 shop-cat-btn"
-                style="
-                  height: 3rem;
-                  background-color: #fa4251;
-                  border: 0px;
-                  color: white;
-                  font-weight: bold;
+                  text-decoration: underline;
                 "
               >
                 Weights & Bars
               </button>
             </div>
             <div class="col-3 p-1">
-              <button
-                class="w-100 shop-cat-btn"
-                style="
-                  height: 3rem;
-                  background-color: #fa4251;
-                  border: 0px;
-                  color: white;
-                  font-weight: bold;
-                "
-              >
-                Supplements
-              </button>
+              <form action="../supplements/">
+                <button
+                  class="w-100 shop-cat-btn"
+                  style="
+                    height: 3rem;
+                    background-color: #fa4251;
+                    border: 0px;
+                    color: white;
+                    font-weight: bold;
+                  "
+                  type="submit"
+                >
+                  Supplements
+                </button>
+              </form>
             </div>
           </div>
         </div>
