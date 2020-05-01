@@ -1,3 +1,12 @@
+<?php 
+include("server.php");
+
+if ($_SESSION['loggedin'] === 'TRUE') {
+  header('location: account.php');
+}
+
+?>
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -79,12 +88,14 @@
         <div
           class="row p-0 m-0 h-100 justify-content-center align-items-center"
         >
-          <form action="./index.html">
+          <form method="POST" action="login.php">
+            <?php include('errors.php') ?>
             <div class="col-12 p-1">
               <h1>Sign into your account</h1>
             </div>
             <div class="col-12 p-1">
               <input
+                name="email"
                 type="text"
                 style="width: 100%; height: 6vh;"
                 class="pl-1 pr-1"
@@ -93,6 +104,7 @@
             </div>
             <div class="col-12 p-1">
               <input
+                name="password"
                 type="password"
                 style="width: 100%; height: 6vh;"
                 class="pl-1 pr-1"
@@ -100,7 +112,7 @@
               />
             </div>
             <div class="col-12 p-1">
-              <button
+              <button type="submit" name="user_login"
                 style="
                   width: 100%;
                   height: 6vh;

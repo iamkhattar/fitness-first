@@ -1,4 +1,10 @@
-<?php include("server.php") ?>
+<?php 
+if ($_SESSION['loggedin'] === 'TRUE') {
+  header('location: account.php');
+}
+
+include("server.php") 
+?>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -38,7 +44,7 @@
               <a class="nav-link" href="../shop/"><i class="fas fa-fw fa-shopping-bag"></i> Shop</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="./login.html"><i class="fas fa-fw fa-user"></i> Account</a>
+              <a class="nav-link active" href="./login.php"><i class="fas fa-fw fa-user"></i> Account</a>
             </li>
             <li class="nav-item">
               <a class="nav-link pr-0" href="../basket/"><i class="fas fa-fw fa-shopping-cart"></i> Basket</a>
@@ -78,7 +84,7 @@
             </button>
           </div>
           <div class="col-12 p-1" style="text-align: right !important;">
-            <a href="login.html" class="justify-content-end w-100">Already a User? Login Here</a>
+            <a href="login.php" class="justify-content-end w-100">Already a User? Login Here</a>
           </div>
         </form>
       </div>
