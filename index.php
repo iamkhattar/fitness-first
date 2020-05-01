@@ -60,7 +60,7 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./account/login.html"
+                <a class="nav-link" href="./account/account.php"
                   ><i class="fas fa-fw fa-user"></i> Account</a
                 >
               </li>
