@@ -35,6 +35,12 @@ a:hover {
   font-weight: bold;
 }
 
+.crd-btn-shp {
+  background-color: white !important;
+  color: black !important;
+  font-weight: bold;
+}
+
 .card {
   background-color: transparent;
 }
