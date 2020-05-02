@@ -57,8 +57,8 @@ if (isset($_POST['user_login'])) {
   	$results = mysqli_query($db, $query);
   	if (mysqli_num_rows($results) == 1) {
   	  $_SESSION['email'] = $email;
-  	  $_SESSION['loggedin'] = "TRUE";
-  	  header('location: ../index.php');
+      $_SESSION['loggedin'] = true;
+  	  header('location: account.php');
   	}else {
   		array_push($errors, "Wrong email/password combination");
   	}

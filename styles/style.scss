@@ -1,0 +1,47 @@
+$headerHeight: 7vh;
+$mainHeight: 93vh;
+
+$textColor: white;
+$backgroundColor: #343a40;
+$secondaryColor: #fa4251;
+
+html {
+  background-color: $backgroundColor;
+}
+
+header {
+  height: $headerHeight;
+  background-color: $backgroundColor;
+}
+
+main {
+  background-color: $backgroundColor;
+  color: $textColor;
+  height: $mainHeight;
+}
+
+.nav-link {
+  color: $textColor;
+}
+
+a {
+  color: $textColor !important;
+  text-decoration: none;
+  &:hover {
+    color: $textColor !important;
+  }
+}
+
+.nav-item .active {
+  color: $secondaryColor !important;
+}
+
+.crd-btn {
+  background-color: $secondaryColor !important;
+  color: $textColor !important;
+  font-weight: bold;
+}
+
+.card {
+  background-color: transparent;
+}

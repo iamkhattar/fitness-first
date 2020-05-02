@@ -1,0 +1,47 @@
+html {
+  background-color: #343a40;
+}
+
+header {
+  height: 7vh;
+  background-color: #343a40;
+}
+
+main {
+  background-color: #343a40;
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+a {
+  color: white !important;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white !important;
+}
+
+.nav-item .active {
+  color: #fa4251 !important;
+}
+
+.crd-btn {
+  background-color: #fa4251 !important;
+  color: white !important;
+  font-weight: bold;
+}
+
+.crd-btn-shp {
+  background-color: white !important;
+  color: black !important;
+  font-weight: bold;
+}
+
+.card {
+  background-color: transparent;
+}
+/*# sourceMappingURL=style.css.map */

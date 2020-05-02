@@ -1,10 +1,4 @@
-<?php 
-if ($_SESSION['loggedin'] === 'TRUE') {
-  header('location: account.php');
-}
-
-include("server.php") 
-?>
+<?php include("server.php") ?>
 <!DOCTYPE html>
 
 <html lang="en">
