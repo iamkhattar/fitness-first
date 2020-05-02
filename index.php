@@ -55,7 +55,7 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./shop"
+                <a class="nav-link" href="./shop/fitness-equipment/"
                   ><i class="fas fa-fw fa-shopping-bag"></i> Shop</a
                 >
               </li>
@@ -65,7 +65,7 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link pr-0" href="./basket/"
+                <a class="nav-link pr-0" href="./basket/index.html"
                   ><i class="fas fa-fw fa-shopping-cart"></i> Basket</a
                 >
               </li>
@@ -149,7 +149,7 @@
         <div class="col-12 p-0 mt-3">
           <div class="row container m-0 p-0">
             <div class="col-3 pl-0 pr-1 pt-0 pb-0">
-              <a class="card" href="./shop/">
+              <a class="card" href="./shop/fitness-equipment/">
                 <img
                   src="./assets/home/categories/category-1.jpg"
                   class="card-img-top"
@@ -161,7 +161,7 @@
               </a>
             </div>
             <div class="col-3 pl-1 pr-0 pt-0 pb-0">
-              <a class="card" href="./shop/">
+              <a class="card" href="./shop/gym-equipment/">
                 <img
                   src="./assets/home/categories/category-2.jpg"
                   class="card-img-top"
@@ -173,7 +173,7 @@
               </a>
             </div>
             <div class="col-3 pl-1 pr-0 pt-0 pb-0">
-              <a class="card" href="./shop/">
+              <a class="card" href="./shop/weights-bars/">
                 <img
                   src="./assets/home/categories/category-3.jpg"
                   class="card-img-top"
@@ -185,7 +185,7 @@
               </a>
             </div>
             <div class="col-3 pl-1 pr-0 pt-0 pb-0">
-              <a class="card" href="./shop/">
+              <a class="card" href="./shop/supplements/">
                 <img
                   src="./assets/home/categories/category-4.jpg"
                   class="card-img-top"
