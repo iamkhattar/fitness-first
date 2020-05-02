@@ -65,7 +65,7 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link pr-0" href="./basket/index.html"
+                <a class="nav-link pr-0" href="./basket/index.php"
                   ><i class="fas fa-fw fa-shopping-cart"></i> Basket</a
                 >
               </li>

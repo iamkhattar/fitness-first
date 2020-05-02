@@ -1,3 +1,16 @@
+<?php   
+    $db = mysqli_connect('localhost', 'root', '', 'fitness-first-users');
+
+    $result = mysqli_query($db, "SELECT * FROM products WHERE code='FE001'");
+    while ($row = mysqli_fetch_assoc($result)) {
+ 
+      $name = $row['name'];
+      $price = $row['price'];
+      $image = $row['image'];
+  }
+    ?>
+
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -46,9 +59,26 @@
         </div>
       </nav>
     </div>
+   
+
   </header>
   <main>
-    <div class="container">Hi</div>
+    <div class="row p-0 m-0 pt-3">
+          <div class="col-3 p-1">
+              <img src="../.../assets/shop/fitness-equipment/FE001/2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body p-0" style="border: 0px;">
+                <div class="btn w-100" style="border: 0px; color: white;">
+                  <i> Product Name: <?php echo $name ?></i>
+                  <br />
+                  <b>Price: £<?php echo $price ?></b>
+                </div>
+              </div>
+            </div>
+      </div>
+
+
+    
+    
   </main>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
