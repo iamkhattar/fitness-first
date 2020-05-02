@@ -135,7 +135,9 @@
             </form>
           </div>
           <div class="col-3 p-1">
-            <a class="card" href="./shop/" style="border: 0px;">
+          <form class="card" action="./products/FE001/" method="GET" style="border: 0px;">
+              <input type="hidden" name="code" value="FE003">
+              <button type="submit">Product</button>
               <img src="../../assets/shop/fitness-equipment/FE002/1.jpg" class="card-img-top" alt="..." />
               <div class="card-body p-0" style="border: 0px;">
                 <div class="btn w-100" style="border: 0px; color: white;">
@@ -144,10 +146,12 @@
                   <b>£3,999</b>
                 </div>
               </div>
-            </a>
+            </form>
           </div>
           <div class="col-3 p-1">
-            <a class="card" href="./shop/" style="border: 0px;">
+          <form class="card" action="./products/FE001/" method="GET" style="border: 0px;">
+              <input type="hidden" name="code" value="FE004">
+              <button type="submit">Product</button>
               <img src="../../assets/shop/fitness-equipment/FE004/1.jpg" class="card-img-top" alt="..." />
               <div class="card-body p-0" style="border: 0px;">
                 <div class="btn w-100" style="border: 0px; color: white;">
@@ -156,12 +160,14 @@
                   <b>£799</b>
                 </div>
               </div>
-            </a>
+            </form>
           </div>
         </div>
         <div class="row p-0 m-0 pt-3">
           <div class="col-3 p-1">
-            <a class="card" href="./shop/" style="border: 0px;">
+          <form class="card" action="./products/FE001/" method="GET" style="border: 0px;">
+              <input type="hidden" name="code" value="FE005">
+              <button type="submit">Product</button>
               <img src="../../assets/shop/fitness-equipment/FE005/1.jpg" class="card-img-top" alt="..." />
               <div class="card-body p-0" style="border: 0px;">
                 <div class="btn w-100" style="border: 0px; color: white;">
@@ -170,10 +176,12 @@
                   <b>£399</b>
                 </div>
               </div>
-            </a>
+            </form>
           </div>
           <div class="col-3 p-1">
-            <a class="card" href="./shop/" style="border: 0px;">
+          <form class="card" action="./products/FE001/" method="GET" style="border: 0px;">
+              <input type="hidden" name="code" value="FE006">
+              <button type="submit">Product</button>
               <img src="../../assets/shop/fitness-equipment/FE006/1.jpg" class="card-img-top" alt="..." />
               <div class="card-body p-0" style="border: 0px;">
                 <div class="btn w-100" style="border: 0px; color: white;">
@@ -182,7 +190,7 @@
                   <b>£2,995</b>
                 </div>
               </div>
-            </a>
+            </form>
           </div>
         </div>
       </div>
