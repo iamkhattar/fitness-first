@@ -35,7 +35,7 @@
               <a class="nav-link" href="../"><i class="fas fa-fw fa-home"></i> Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../shop/"><i class="fas fa-fw fa-shopping-bag"></i> Shop</a>
+              <a class="nav-link" href="../shop/fitness-equipment/"><i class="fas fa-fw fa-shopping-bag"></i> Shop</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="./login.php"><i class="fas fa-fw fa-user"></i> Account</a>

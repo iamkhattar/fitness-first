@@ -1,7 +1,9 @@
-<?php   
+<?php  
+
+    $code = $_GET['code'];
     $db = mysqli_connect('localhost', 'root', '', 'fitness-first-users');
 
-    $result = mysqli_query($db, "SELECT * FROM products WHERE code='FE001'");
+    $result = mysqli_query($db, "SELECT * FROM products WHERE code='$code'");
     while ($row = mysqli_fetch_assoc($result)) {
  
       $name = $row['name'];

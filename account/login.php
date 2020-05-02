@@ -59,7 +59,7 @@ include("server.php");
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../shop/"
+                <a class="nav-link" href="../shop/fitness-equipment/"
                   ><i class="fas fa-fw fa-shopping-bag"></i> Shop</a
                 >
               </li>
@@ -121,7 +121,7 @@ include("server.php");
               </button>
             </div>
             <div class="col-12 p-1" style="text-align: right !important;">
-              <a href="register.html" class="justify-content-end w-100"
+              <a href="register.php" class="justify-content-end w-100"
                 >Not a User? Register Here</a
               >
             </div>
