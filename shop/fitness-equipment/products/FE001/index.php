@@ -14,6 +14,7 @@
       $feature2 = $row['feature2'];
       $feature3 = $row['feature3'];
   }
+
     ?>
 
 <!DOCTYPE html>
@@ -207,6 +208,7 @@
                 >
                   £<?php echo $price ?>
                 </div>
+             
                 <div class="col-6 p-0">
                   <button
                     class="h-100 w-100"
