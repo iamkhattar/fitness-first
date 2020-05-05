@@ -109,17 +109,20 @@
 
                   <tr>
                   <td> <?php echo $name ?> </td>
-                  <div class="col-2" style="font-size: 20px;"><b> <td> £<?php echo $price ?></td></b></div>
+                  <td> <?php echo $price ?></td>
                   </br>
                   </tr>
+
                 <?php
+
               }
             }
+
           }
 
           ?>
           </div>
-          
+          <div class="col-2" style="font-size: 20px;"><b>£399</b></div>
         </div>
         <div class="row pb-3 justify-content-center align-items-center">
           <div class="col-1 pr-0">
@@ -128,8 +131,10 @@
               class="w-100"
             />
           </div>
-          
-          
+          <div class="col-9" style="font-size: 20px;">
+            This is the huge ass Item name
+          </div>
+          <div class="col-2" style="font-size: 20px;"><b>£399</b></div>
         </div>
         <div class="row p-0 pt-2">
           <div class="col-10" style="font-size: 20px;">
