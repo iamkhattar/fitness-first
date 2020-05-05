@@ -1,3 +1,30 @@
+<?php 
+
+session_start();
+$db = mysqli_connect('localhost', 'root', '', 'fitness-first-users');
+if (isset($_SESSION['cart_items'])) {
+  foreach ($_SESSION['cart_items'] as $itemcode) {
+    $result = mysqli_query($db, "SELECT * FROM products WHERE code='$itemcode'");
+    while ($row = mysqli_fetch_assoc($result)) {
+      $name = $row['name'];
+      $price = $row['price'];
+      $image = $row['image'];
+      ?> 
+
+        <tr>
+        <td> <?php echo $name ?> </td>
+        <td> <?php echo $price ?></td>
+    </br>
+				</tr>
+
+      <?php
+
+  }
+}
+}
+
+?>
+
 <!DOCTYPE html>
 
 <html lang="en">
