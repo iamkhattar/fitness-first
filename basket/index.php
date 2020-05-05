@@ -1,27 +1,6 @@
 <?php 
 
 session_start();
-$db = mysqli_connect('localhost', 'root', '', 'fitness-first-users');
-if (isset($_SESSION['cart_items'])) {
-  foreach ($_SESSION['cart_items'] as $itemcode) {
-    $result = mysqli_query($db, "SELECT * FROM products WHERE code='$itemcode'");
-    while ($row = mysqli_fetch_assoc($result)) {
-      $name = $row['name'];
-      $price = $row['price'];
-      $image = $row['image'];
-      ?> 
-
-        <tr>
-        <td> <?php echo $name ?> </td>
-        <td> <?php echo $price ?></td>
-    </br>
-				</tr>
-
-      <?php
-
-  }
-}
-}
 
 ?>
 
@@ -83,6 +62,31 @@ if (isset($_SESSION['cart_items'])) {
       </div>
       <div class="row">
         <div class="col-12">Item</div>
+        <?php 
+          $db = mysqli_connect('localhost', 'root', '', 'fitness-first-users');
+          if (isset($_SESSION['cart_items'])) {
+            foreach ($_SESSION['cart_items'] as $itemcode) {
+              $result = mysqli_query($db, "SELECT * FROM products WHERE code='$itemcode'");
+              while ($row = mysqli_fetch_assoc($result)) {
+                $name = $row['name'];
+                $price = $row['price'];
+                $image = $row['image'];
+                ?> 
+
+                  <tr>
+                  <td> <?php echo $name ?> </td>
+                  <td> <?php echo $price ?></td>
+              </br>
+                  </tr>
+
+                <?php
+
+            }
+            }
+
+          }
+
+          ?>
       </div>
       <div class="row">
         <div class="col-6">Continue Shopping</div>
