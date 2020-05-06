@@ -106,7 +106,7 @@
             <form class="card" action="./products/FE001/" method="GET" style="border: 0px;">
               <input type="hidden" name="code" value="FE001">
               <img src="../../assets/shop/fitness-equipment/FE001/2.jpg" class="card-img-top" alt="..." />
-              <button type="submit" class="h-100 w-100" style="position:absolute; background-color:transparent; border:0px">Product</button>
+              <button type="submit" class="h-100 w-100" style="position:absolute; background-color:transparent; border:0px"></button>
               <div class="card-body p-0" style="border: 0px;">
                 <div class="btn w-100" style="border: 0px; color: white;">
                   <i>Life Fitness F3 Treadmill</i>
@@ -120,7 +120,7 @@
             <form class="card" action="./products/FE001/" method="GET" style="border: 0px;">
               <input type="hidden" name="code" value="FE002">
               <img src="../../assets/shop/fitness-equipment/FE003/1.jpg" class="card-img-top" alt="..." />
-              <button type="submit" class="h-100 w-100" style="position:absolute; background-color:transparent; border:0px">Product</button>
+              <button type="submit" class="h-100 w-100" style="position:absolute; background-color:transparent; border:0px"></button>
               <div class="card-body p-0" style="border: 0px;">
                 <div class="btn w-100" style="border: 0px; color: white;">
                   <i>Life Fitness Platinum Treadmill</i>
@@ -134,7 +134,7 @@
             <form class="card" action="./products/FE001/" method="GET" style="border: 0px;">
               <input type="hidden" name="code" value="FE003">
               <img src="../../assets/shop/fitness-equipment/FE002/1.jpg" class="card-img-top" alt="..." />
-              <button type="submit" class="h-100 w-100" style="position:absolute; background-color:transparent; border:0px">Product</button>
+              <button type="submit" class="h-100 w-100" style="position:absolute; background-color:transparent; border:0px"></button>
               <div class="card-body p-0" style="border: 0px;">
                 <div class="btn w-100" style="border: 0px; color: white;">
                   <i>Taurus 10.5 Treadmill Pro</i>
@@ -148,7 +148,7 @@
             <form class="card" action="./products/FE001/" method="GET" style="border: 0px;">
               <input type="hidden" name="code" value="FE004">
               <img src="../../assets/shop/fitness-equipment/FE004/1.jpg" class="card-img-top" alt="..." />
-              <button type="submit" class="h-100 w-100" style="position:absolute; background-color:transparent; border:0px">Product</button>
+              <button type="submit" class="h-100 w-100" style="position:absolute; background-color:transparent; border:0px"></button>
               <div class="card-body p-0" style="border: 0px;">
                 <div class="btn w-100" style="border: 0px; color: white;">
                   <i>Taurus Ergo-X Classic Air Bike</i>
@@ -164,7 +164,7 @@
             <form class="card" action="./products/FE001/" method="GET" style="border: 0px;">
               <input type="hidden" name="code" value="FE005">
               <img src="../../assets/shop/fitness-equipment/FE005/1.jpg" class="card-img-top" alt="..." />
-              <button type="submit" class="h-100 w-100" style="position:absolute; background-color:transparent; border:0px">Product</button>
+              <button type="submit" class="h-100 w-100" style="position:absolute; background-color:transparent; border:0px"></button>
               <div class="card-body p-0" style="border: 0px;">
                 <div class="btn w-100" style="border: 0px; color: white;">
                   <i>BodyMax B15 Indoor Cycle</i>
@@ -178,7 +178,7 @@
             <form class="card" action="./products/FE001/" method="GET" style="border: 0px;">
               <input type="hidden" name="code" value="FE006">
               <img src="../../assets/shop/fitness-equipment/FE006/1.jpg" class="card-img-top" alt="..." />
-              <button type="submit" class="h-100 w-100" style="position:absolute; background-color:transparent; border:0px">Product</button>
+              <button type="submit" class="h-100 w-100" style="position:absolute; background-color:transparent; border:0px"></button>
               <div class="card-body p-0" style="border: 0px;">
                 <div class="btn w-100" style="border: 0px; color: white;">
                   <i>Life Fitness Elliptical Cross Trainer</i>

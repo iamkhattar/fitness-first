@@ -1,6 +1,8 @@
 # 💪 fitness-first
 
-fitness-first is an online store for gym equipment.
+fitness-first is a project that was undertaken to brush up our PHP, HTML and CSS Skills.
+
+![FitnessFirst](assets/documentation/fitness-first-landing.jpg)
 
 # Contributors
 
