@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-
 # 💪 fitness-first
 
 fitness-first is a project that was undertaken to brush up our PHP, HTML and CSS Skills.
@@ -8,7 +6,7 @@ fitness-first is a project that was undertaken to brush up our PHP, HTML and CSS
 
 # Technology Stack
 
-<i style="font-size:7rem;" class="devicon-html5-plain-wordmark colored"></i> <i class="devicon-css3-plain-wordmark colored"  style="font-size:7rem;  padding:1rem"></i> <i class="devicon-php-plain colored" style="font-size:7rem; padding-right:1rem"></i> <i class="devicon-mysql-plain-wordmark colored" style="font-size:7rem; padding:1rem"></i> <i class="devicon-visualstudio-plain colored" style="font-size:7rem; padding:1rem"></i>
+<img src="./assets/common/html.png" width="80" height="80" title="HTML"> <img src="./assets/common/css.png" width="80" height="80" title="CSS"> <img src="./assets/common/sass.png" width="80" height="80" title="Sass"> <img src="./assets/common/php.png" width="80" height="80" title="PHP"> <img src="./assets/common/mysql.png" width="80" height="80" title="MySQL"> <img src="./assets/common/vscode.png" width="80" height="80" title="Visual Studio Code"> <img src="./assets/common/git.png" width="80" height="80" title="Git"> <img src="./assets/common/github.png" width="80" height="80" title="Github">
 
 # Contributors
 
