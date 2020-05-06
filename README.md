@@ -1,6 +1,14 @@
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
 # 💪 fitness-first
 
-fitness-first is an online store for gym equipment.
+fitness-first is a project that was undertaken to brush up our PHP, HTML and CSS Skills.
+
+![FitnessFirst](assets/documentation/fitness-first-landing.jpg)
+
+# Technology Stack
+
+<i style="font-size:7rem;" class="devicon-html5-plain-wordmark colored"></i> <i class="devicon-css3-plain-wordmark colored"  style="font-size:7rem;  padding:1rem"></i> <i class="devicon-php-plain colored" style="font-size:7rem; padding-right:1rem"></i> <i class="devicon-mysql-plain-wordmark colored" style="font-size:7rem; padding:1rem"></i> <i class="devicon-visualstudio-plain colored" style="font-size:7rem; padding:1rem"></i>
 
 # Contributors
 

@@ -1,6 +1,22 @@
 <?php  
 
-    $code = $_GET['code'];
+    session_start();
+
+    if (!isset($_SESSION['cart_items'])) {
+      $_SESSION['cart_items'] = array();
+    }
+   
+    if (isset($_GET['code'])) {
+      $code = $_GET['code'];
+      $_SESSION['code'] = $code;
+    } else {
+      $code = $_SESSION['code'];
+    }
+
+    if (isset($_GET['addtocart'])) {
+      array_push($_SESSION['cart_items'], $code);
+    }
+  
     $db = mysqli_connect('localhost', 'root', '', 'fitness-first-users');
 
     $result = mysqli_query($db, "SELECT * FROM products WHERE code='$code'");
@@ -14,6 +30,7 @@
       $feature2 = $row['feature2'];
       $feature3 = $row['feature3'];
   }
+
     ?>
 
 <!DOCTYPE html>
@@ -207,8 +224,12 @@
                 >
                   £<?php echo $price ?>
                 </div>
+
                 <div class="col-6 p-0">
+                  <form method="get">
+                  <input type="hidden" name="addtocart">
                   <button
+                    type=submit
                     class="h-100 w-100"
                     style="
                       border: 0px;
@@ -219,6 +240,8 @@
                   >
                     Add to cart
                   </button>
+                </form>
+
                 </div>
               </div>
             </div>
