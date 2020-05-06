@@ -98,6 +98,7 @@
           <div class="col-9" style="font-size: 20px;">
           <?php 
           $db = mysqli_connect('localhost', 'root', '', 'fitness-first-users');
+          $total = 0;
           if (isset($_SESSION['cart_items'])) {
             foreach ($_SESSION['cart_items'] as $itemcode) {
               $result = mysqli_query($db, "SELECT * FROM products WHERE code='$itemcode'");
@@ -105,6 +106,8 @@
                 $name = $row['name'];
                 $price = $row['price'];
                 $image = $row['image'];
+                $total += $price
+
                 ?> 
 
                   <tr>
@@ -133,9 +136,9 @@
         </div>
         <div class="row p-0 pt-2">
           <div class="col-10" style="font-size: 20px;">
-            Total Amount:
+            Total Amount: 
           </div>
-          <div class="col-2" style="font-size: 20px;"><b>£798</b></div>
+          <div class="col-2" style="font-size: 20px;"><b>£<?php echo "$price" ?></b></div>
         </div>
         <div class="row pt-4">
           <div class="col-6" style="height: 6vh;">
